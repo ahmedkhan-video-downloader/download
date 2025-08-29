@@ -3,8 +3,8 @@ import yt_dlp
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "خلي هنا توكن بوتك"
-CHANNEL_USERNAME = "@معرف قناتك" 
+TOKEN = "8197996560:AAFshyi0AYVcVULxwAANzNBz9RM7-9Y9kHc"
+CHANNEL_USERNAME = "@p_y_hy" 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not await is_subscribed(update, context):
